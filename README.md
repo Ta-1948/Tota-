@@ -1,50 +1,41 @@
 <!DOCTYPE html>
-<html dir="rtl" lang="ar">
+<html lang="ar" dir="rtl">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Ta-1948</title>
 <style>
   body {
-    background: linear-gradient(lightgreen, green); /* تدرج اللون الأخضر */
+    background: linear-gradient(lightgreen, green); /* تدرج لوني من الأخضر الفاتح إلى الأخضر */
     font-family: 'Sakkal Majalla', sans-serif; /* نوع الخط */
-    color: darkgreen; /* لون الخط الأخضر الغامق */
-    text-align: center; /* محاذاة النص في الوسط */
-  }
-  .welcome {
-    margin-top: 50px;
-    font-size: 24px;
-  }
-  .learn-share {
-    margin-bottom: 30px;
-    font-size: 20px;
+    text-align: center; /* محاذاة النص في المنتصف */
   }
   .button {
-    background-color: lightgreen; /* لون الزر الأخضر الفاتح */
+    background-color: white; /* لون خلفية الزر */
     border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
+    color: green; /* لون النص داخل الزر */
+    padding: 15px 32px; /* الحشو حول النص */
+    text-align: center; /* محاذاة النص */
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    transition: background-color 0.3s; /* تأثير لوني خفيف عند تمرير الماوس */
+    transition: background-color 0.3s; /* تأثير انتقالي للون الخلفية */
   }
   .button:hover {
-    background-color: green; /* تغيير لون الزر عند تمرير الماوس */
+    background-color: #ddd; /* لون خلفية الزر عند المرور فوقه */
   }
 </style>
 </head>
 <body>
 
-<div class="welcome">أهـلاً بـك فـي عـالـم الـبـرمـجـة</div>
+<h1>أهـلاً بـك فـي عـالَـم الـبَرمـجـة</h1>
+<p>تَـعَـلّـم ، واستمتع ، وشارك معرفتك</p>
 
-<a href="YOUR_YOUTUBE_LINK" class="button">يوتيوب</a>
 <a href="YOUR_SCRATCH_LINK" class="button">سكراتش</a>
+<a href="YOUR_YOUTUBE_LINK" class="button">يوتيوب</a>
 <a href="YOUR_FACEBOOK_LINK" class="button">فيسبوك</a>
-
-<div class="learn-share">تَعلَّم ، واستمتع ، وشارك معرفتك</div>
 
 </body>
 </html>
