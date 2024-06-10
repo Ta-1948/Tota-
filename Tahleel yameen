@@ -12,7 +12,7 @@
   }
   .button {
     background-color: white; /* لون خلفية الزر */
-    border: none;
+    border: 2px solid white; /* حدود الزر بلون أبيض */
     color: green; /* لون النص داخل الزر */
     padding: 15px 32px; /* الحشو حول النص */
     text-align: center; /* محاذاة النص */
