@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ta-1948</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+        .teddy-bear {
+            position: relative;
+            width: 200px;
+            height: 300px;
+            background-color: #8b4513;
+            border-radius: 50% 50% 40% 40%;
+        }
+        .teddy-bear::before, .teddy-bear::after {
+            content: '';
+            position: absolute;
+            background-color: #8b4513;
+            border-radius: 50%;
+        }
+        .teddy-bear::before {
+            width: 100px;
+            height: 100px;
+            top: -50px;
+            left: 50px;
+        }
+        .teddy-bear::after {
+            width: 60px;
+            height: 60px;
+            top: 20px;
+            left: 70px;
+            background-color: #d2b48c;
+        }
+        .eye {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background-color: #000;
+            border-radius: 50%;
+            top: 10px;
+        }
+        .eye.left {
+            left: 30px;
+        }
+        .eye.right {
+            right: 30px;
+        }
+        .nose {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background-color: #000;
+            border-radius: 50%;
+            top: 40px;
+            left: 90px;
+        }
+        .mouth {
+            position: absolute;
+            width: 60px;
+            height: 30px;
+            border-bottom: 5px solid #000;
+            border-radius: 0 0 50% 50%;
+            top: 60px;
+            left: 70px;
+        }
+    </style>
+</head>
+<body>
+    <div class="teddy-bear">
+        <div class="eye left"></div>
+        <div class="eye right"></div>
+        <div class="nose"></div>
+        <div class="mouth"></div>
+    </div>
+</body>
+</html>
